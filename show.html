@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale==0,user-scalable=0">
+    <script src="js/zepto.min.js"></script>
+    <script src="js/swiper.jquery.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/show.css" />
+    <link rel="stylesheet" href="css/iconfont.css">
+
+</head>
+<script>
+    function resize(originSize){
+        var widths=document.documentElement.clientWidth;
+        var heights=document.documentElement.clientHeight;
+        if(widths>=heights){
+            var scale=widths/originSize*100;
+        }else if(widths<heights){
+
+            var scale=heights/originSize*100;
+        }
+
+        document.getElementsByTagName("html")[0].style.fontSize=scale+"px";
+    }
+    $(function() {
+        resize(750);
+    })
+</script>
+<body>
+<header>
+    <a href="index.html" class="iconfont icon-arrowleft"></a>
+    <div class="iconfont icon-zitidaxiao"></div>
+</header>
+<div class="title">
+    <h1>习近平：改革方案差别化探索</h1>
+    <h6>10-13</h6>
+    <h6>果子卫视</h6>
+</div>
+<div class="img"></div>
+<div class="txt">2015年10月，习近平在美国发表讲话</div>
+<div class="con">
+    <p>习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席。</p>
+    <p>习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席。</p>
+    <p>习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席。</p>
+    <p>习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席。</p>
+    <p>习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席习近平主席。</p>
+</div>
+<ul class="foot">
+    <li class="iconfont icon-pinglun"></li>
+    <li class="iconfont icon-iconfontxingxing"></li>
+    <li class="iconfont icon-dianzan"></li>
+    <li class="iconfont icon-fenxiang"></li>
+</ul>
+</body>
+</html>

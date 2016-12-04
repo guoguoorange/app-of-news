@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale==0,user-scalable=0">
+    <script src="js/zepto.min.js"></script>
+    <script src="js/swiper.jquery.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/list.css" />
+    <link rel="stylesheet" href="css/iconfont.css">
+
+</head>
+<script>
+    function resize(originSize){
+        var widths=document.documentElement.clientWidth;
+        var heights=document.documentElement.clientHeight;
+        if(widths>=heights){
+            var scale=widths/originSize*100;
+        }else if(widths<heights){
+
+            var scale=heights/originSize*100;
+        }
+
+        document.getElementsByTagName("html")[0].style.fontSize=scale+"px";
+    }
+    $(function() {
+        resize(750);
+    })
+</script>
+<body>
+<header>
+    <div class="photo"></div>
+    <div class="logo">果子新闻</div>
+    <div class="iconfont icon-search"></div>
+</header>
+<div class="list"><a href="index.html">时政</a></div>
+<div class="list"><a href="index.html">社会</a></div>
+<div class="list"><a href="index.html">科教</a></div>
+<div class="list"><a href="index.html">文娱</a></div>
+<div class="list"><a href="index.html">健康</a></div>
+<div class="list"><a href="index.html">财经</a></div>
+<div class="list"><a href="index.html">体育</a></div>
+<div class="list"><a href="index.html">旅游</a></div>
+</body>
+</html>
