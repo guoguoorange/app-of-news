@@ -45,6 +45,8 @@ header .iconfont{
     height:0.5rem;
     background:#D8D7DB;
     overflow: hidden;
+    display: -webkit-flex;
+    display: flex;
 }
 .cate li{
     margin: 0;
@@ -52,6 +54,10 @@ header .iconfont{
     font-size: 0.20rem;
     line-height: 0.25rem;
     float: left;
+    flex-grow: 1;
+    -wehkit-box-ordinal-group:1;
+    text-align: center;
+
 }
 .cate li a {
     color: #666;
