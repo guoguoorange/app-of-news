@@ -37,9 +37,66 @@ header .iconfont{
     top:0.2rem;
     font-size: 0.4rem;
     color: #fff;
+    margin:0;
+}
+.mask{
+    position: absolute;
+    top:0;
+    left:-100%;
+    width: 100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+    z-index:20;
+}
+.left{
+    width: 3.5rem;
+    height:100%;
+    position: absolute;
+    top:0;
+    left: -3.5rem;
+    background: #fff;
+    z-index:22;
 
 }
+.top{
+    width: 100%;
+    height:3rem;
+    background: #CB463D;
+    font-size: 0.22rem;
+    color: #fff;
+    border-top:1px solid #ccc;
 
+}
+.photo2{
+    width: 1.2rem;
+    height:1.2rem;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+    background: url("../img/648-161024115227-50.jpg")no-repeat;
+    background-size:100% 100% ;
+}
+.username{
+    margin-left: 0.65rem;
+    margin-top:0.2rem;
+    line-height: 0.6rem;
+    font-size: 0.3rem;
+}
+.sorce{
+    margin-left: 0.3rem;
+}
+.iconfont{
+    margin: 0.4rem;
+    font-size: 0.28rem;
+    color:#666;
+}
+.iconfont span{
+    margin-left: 0.2rem;
+}
+.icon-set{
+    margin-top: 0.8rem;
+    margin-left:2.2rem;
+}
 .cate{
     width:auto;
     height:0.5rem;
